@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <html lang="pl-PL">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+
+        <title>WebMasters - Menu</title>
+        <link rel="icon" href="gfx/Favicon.ico" type="image/x-icon" />
+
+
+        <meta charset="UTF-8">
+        <meta name="author" content="543dx">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+
+    <body id="appBody">
+      <div id="loading-page">
+          <div class="Loading">
+              <div class="Circle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+              </div>
+         </div>
+     </div>
+    <div id="main-page" style="display: none;">
+        <div class="left-bar"></div>
+
+        <div class="top-rect"></div>
+
+        <a href="#">
+                <div class="left-top-copy" data-title="WebMasters">   
+                <div class="left-top-button"></div>
+
+                <img src="gfx/webmastersLOGO.png" data-data-title="WebMasters" alt="img-1" class="left-logo">
+                <h1>WebMasters</h1>
+                </div>
+        </a>
+
+
+        <div id="menu-top" style="overflow-y: scroll;">
+        <div class="left-menu">
+
+            <a class="active" data-title="Menu" href="/Main">Menu
+                <span></span>
+            </a>
+            <a href="/Learning">Learning</a>
+            <a href="/Guides">Guides</a>
+            <a href="/Exercises">Exercises</a>
+            <a href="/Contact">Contact</a>
+            <a href="/About">About</a>
+
+        </div>  
+
+        <div class="left-menu-icons">
+            <a href="/Main">
+            <img src="gfx/webmasters-menu.png" data-title="Menu" alt="img1" class="active-icon"></a>
+
+            <a href="/Learning">
+            <img src="gfx/webmasters-learning.png" data-title="Learning" alt="img2"></a>
+
+            <a href="/Guides">
+            <img src="gfx/webmasters-guides.png" data-title="Guides" alt="img3"></a>
+
+            <a href="/Exercises">
+            <img src="gfx/webmasters-exercises.png" data-title="Exercises" alt="img4"></a>
+
+            <a href="/Contact">
+            <img src="gfx/webmasters-contact.png" data-title="Contact" alt="img5"></a>
+
+            <a href="/About">
+            <img src="gfx/webmasters-about.png" data-title="About" alt="img6"></a>
+         </div>
+        </div>
+
+
+
+         <div class="bottom-rect"></div>
+         
+         <div class="left-menu-bottom">
+
+            <a href="/Main">Share</a>
+            <a onclick="settingsdisplay()">Settings</a>
+            <a href="/Guides">Report bugs</a>
+
+        </div>  
+
+
+         <div class="left-menu-icons-bottom">
+
+            <a href="#654" onclick="">
+                <img src="gfx/webmasters-share.png" alt="img7">
+            </a>
+
+            <a onclick="settingsdisplay()">
+                <img src="gfx/webmasters-settings.png" alt="img8">
+            </a>
+
+            <a href="#70" onclick="">
+                <img src="gfx/webmasters-bugs.png" alt="img9">
+            </a>
+         </div>
+
+         <div class="bottom-line"></div>
+
+         <div class="gowno123"></div>
+
+         
+   
+
+
+        
+
+
+
+
+         <div id="settings-display" style="display: none;">
+            <div class="settings-blur"></div>
+            <div class="settings-background">
+                <span>Settings</span>
+                <span>Customize page</span>
+                <span>Light theme</span>
+            </div>
+            <div class="button-settings-1">
+                <div class="button-settings" id="button-settings-1" onclick="settingsbutton1()">
+                    <span id="button-s-1"></span>
+                </div>
+            </div>
+
+         </div>
+
+    </div>
+    </body>
+</html>
